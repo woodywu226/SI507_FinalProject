@@ -18,7 +18,7 @@ The dataset contains NPI, provider name, specialty, state, and total services bi
 
 **Referral edges** are derived from shared-specialty + shared-state proximity, weighted by service volume. This mirrors the methodology used in published Medicare referral network research when the raw referral claims file requires a data-use agreement.
 
-A **synthetic fallback** (`generate_data.py`) is included for offline/reproducible use.
+I also add a **synthetic fallback** (`generate_data.py`)  for offline use.
 
 ---
 
